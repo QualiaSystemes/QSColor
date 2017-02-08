@@ -1,5 +1,5 @@
 PODS:
-  - QSColor (0.1.0)
+  - QSColor (0.0.1)
 
 DEPENDENCIES:
   - QSColor (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  QSColor: 11c2c0a24f2a9fb777e191edc9ecb4c5faa161dc
+  QSColor: 123ff8fb29099bdf5cb1963d231d75579bd7d49e
 
 PODFILE CHECKSUM: '0897f8e0a497dc7922fe63c27562a2ec89b703db'
 

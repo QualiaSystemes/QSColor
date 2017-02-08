@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A3AA53D1E4B5F830024CBFE /* ColorSets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3AA53C1E4B5F830024CBFE /* ColorSets.swift */; };
+		2A3AA53F1E4B60FC0024CBFE /* ColorSetSelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3AA53E1E4B60FC0024CBFE /* ColorSetSelectorViewController.swift */; };
 		529B698C6EEEFD8AC20D291C /* Pods_QSColor_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CFEC8AD3C788C6F01597A6B /* Pods_QSColor_Tests.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
@@ -30,6 +32,8 @@
 /* Begin PBXFileReference section */
 		07A5C936B32330BBEC6408A4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		260E2740081D34C33BD6122D /* Pods-QSColor_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QSColor_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QSColor_Tests/Pods-QSColor_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		2A3AA53C1E4B5F830024CBFE /* ColorSets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorSets.swift; sourceTree = "<group>"; };
+		2A3AA53E1E4B60FC0024CBFE /* ColorSetSelectorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorSetSelectorViewController.swift; sourceTree = "<group>"; };
 		4BC53C0C569E107D44F67A66 /* Pods-QSColor_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QSColor_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QSColor_Example/Pods-QSColor_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		500CCB7EBF64B5827617A8F9 /* QSColor.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = QSColor.podspec; path = ../QSColor.podspec; sourceTree = "<group>"; };
 		5091200F463027513DC7F8F4 /* Pods-QSColor_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QSColor_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-QSColor_Example/Pods-QSColor_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -95,6 +99,8 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				2A3AA53E1E4B60FC0024CBFE /* ColorSetSelectorViewController.swift */,
+				2A3AA53C1E4B5F830024CBFE /* ColorSets.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -362,6 +368,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				2A3AA53D1E4B5F830024CBFE /* ColorSets.swift in Sources */,
+				2A3AA53F1E4B60FC0024CBFE /* ColorSetSelectorViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

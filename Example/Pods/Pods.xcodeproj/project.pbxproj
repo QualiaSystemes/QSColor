@@ -7,33 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2A3AA5191E4B50E50024CBFE /* QSColorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3AA5181E4B50E50024CBFE /* QSColorManager.swift */; };
-		2A3AA51B1E4B50F00024CBFE /* QSGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3AA51A1E4B50F00024CBFE /* QSGradientView.swift */; };
-		2A3AA52C1E4B50F90024CBFE /* UIBarButtonItem+QSColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3AA51C1E4B50F90024CBFE /* UIBarButtonItem+QSColor.swift */; };
-		2A3AA52D1E4B50F90024CBFE /* UIButton+QSColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3AA51D1E4B50F90024CBFE /* UIButton+QSColor.swift */; };
-		2A3AA52E1E4B50F90024CBFE /* UIColor+QSColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3AA51E1E4B50F90024CBFE /* UIColor+QSColor.swift */; };
-		2A3AA52F1E4B50F90024CBFE /* UIImage+QSColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3AA51F1E4B50F90024CBFE /* UIImage+QSColor.swift */; };
-		2A3AA5301E4B50F90024CBFE /* UILabel+QSColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3AA5201E4B50F90024CBFE /* UILabel+QSColor.swift */; };
-		2A3AA5311E4B50F90024CBFE /* UINavigationBar+QSColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3AA5211E4B50F90024CBFE /* UINavigationBar+QSColor.swift */; };
-		2A3AA5321E4B50F90024CBFE /* UIPageControl+QSColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3AA5221E4B50F90024CBFE /* UIPageControl+QSColor.swift */; };
-		2A3AA5331E4B50F90024CBFE /* UIProgressView+QSColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3AA5231E4B50F90024CBFE /* UIProgressView+QSColor.swift */; };
-		2A3AA5341E4B50F90024CBFE /* UISearchBar+QSColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3AA5241E4B50F90024CBFE /* UISearchBar+QSColor.swift */; };
-		2A3AA5351E4B50F90024CBFE /* UISlider+QSColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3AA5251E4B50F90024CBFE /* UISlider+QSColor.swift */; };
-		2A3AA5361E4B50F90024CBFE /* UISwitch+QSColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3AA5261E4B50F90024CBFE /* UISwitch+QSColor.swift */; };
-		2A3AA5371E4B50F90024CBFE /* UITabBar+QSColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3AA5271E4B50F90024CBFE /* UITabBar+QSColor.swift */; };
-		2A3AA5381E4B50F90024CBFE /* UITextField+QSColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3AA5281E4B50F90024CBFE /* UITextField+QSColor.swift */; };
-		2A3AA5391E4B50F90024CBFE /* UITextView+QSColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3AA5291E4B50F90024CBFE /* UITextView+QSColor.swift */; };
-		2A3AA53A1E4B50F90024CBFE /* UIToolbar+QSColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3AA52A1E4B50F90024CBFE /* UIToolbar+QSColor.swift */; };
-		2A3AA53B1E4B50F90024CBFE /* UIView+QSColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3AA52B1E4B50F90024CBFE /* UIView+QSColor.swift */; };
+		029D5752369E78811112334232CE1DCF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		0803BC1FF334F012A46F05511B2144EF /* QSGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF25E03C51618859B669221509C77684 /* QSGradientView.swift */; };
+		0FB9C6FB59A604D71D2103BE544CED18 /* QSColorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C351BD1AB3B677E30110E7C52C0BA4 /* QSColorManager.swift */; };
+		1624FE0FA22A08DF7DA7C388371A1A0E /* UIPageControl+QSColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71FCE352E70047E09458EFA4C37D9C3D /* UIPageControl+QSColor.swift */; };
+		179B84C8E0AD145B36FD683050F5FAB2 /* UITabBar+QSColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D5CCA73D285E63E3A7ED11D59F5F98 /* UITabBar+QSColor.swift */; };
+		1BE2EFB94547DA9E255FE4ABA1AF7BE2 /* UIImage+QSColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A4BDDD91F6C6FA64B43E8935EF07E4 /* UIImage+QSColor.swift */; };
+		275CE705FE6C053654842BDEE9BBC424 /* UISearchBar+QSColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C3C6902A41DF3139F7FD2617017F56 /* UISearchBar+QSColor.swift */; };
+		3394EC60FB5A5A579BCC680A6E654101 /* UIProgressView+QSColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D8A8B9110DBA27896CA3A796E8CECE /* UIProgressView+QSColor.swift */; };
 		3AF313EAB0F161D863BB2928DF2019E5 /* Pods-QSColor_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 64968FA81BB51FB56E333FCFE1CE0661 /* Pods-QSColor_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4874B6FBF53467CD1E9CF87E98D6F127 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		3E1C4A07B2A365AC155234779AFE3063 /* UIBarButtonItem+QSColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C616BA0247AE05751ECC224C779D882 /* UIBarButtonItem+QSColor.swift */; };
 		49167AEA336554289B125B06CD6111DD /* QSColor-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 297D6D41107B10CF9DC5E9D12BB5A17E /* QSColor-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4E73C481B8480BC03F699A92BBC6C3BC /* Pods-QSColor_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B17E5B0CC9175709D9A08E10132D78AA /* Pods-QSColor_Tests-dummy.m */; };
 		544EE02A541065C6B672E83A1F66EFC6 /* Pods-QSColor_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AD389E6DAE7845866A068D0CB9FFB7A6 /* Pods-QSColor_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5932F0669CC2511B5B5AF89227A2FAEC /* QSColor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 634F2710FAF0C7B6F3E147DFBEC70821 /* QSColor-dummy.m */; };
-		B250402B1883CDC051C55622F1EC82E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		586DF84FE42A14D935CA6615CBA426AD /* UITextField+QSColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE23EE5C211FE9601B012133142AE542 /* UITextField+QSColor.swift */; };
+		65E218F3FBBF07F5F1AD1ABD17C24DF5 /* UIColor+QSColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0D64601E1FF69493C24617852EBE84 /* UIColor+QSColor.swift */; };
+		6A74F4682E25DD151E0CE8B42C7CE0E1 /* UIToolbar+QSColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A78E82896C54BC1F8479363A8B54AB /* UIToolbar+QSColor.swift */; };
+		81A3F6E1C8F5E2EE314E17922513A25E /* UITextView+QSColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329C888BA0B03643C3F2A2046D8AC192 /* UITextView+QSColor.swift */; };
+		8D3B551C683ACEC6E108E063E362FF05 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */; };
+		9BE9636FCED46115E3D2D2D9551A6FDB /* QSColor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 634F2710FAF0C7B6F3E147DFBEC70821 /* QSColor-dummy.m */; };
+		A08A985475AF45ABA4F6573FE5DB845F /* UISlider+QSColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3249BB40FA5573F986888D6088CE5412 /* UISlider+QSColor.swift */; };
+		A66455160DD66A816DE6E576083441F8 /* UILabel+QSColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53BE312B45B1D442249482B84EA22D31 /* UILabel+QSColor.swift */; };
+		AA36A9C81AA6164F43760F3C76DAFF34 /* UIButton+QSColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D353A25EF9A25B28D485C794619B00F /* UIButton+QSColor.swift */; };
+		AA69396A48AD9D8AB19538023A5260EE /* UINavigationBar+QSColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55AB8117E380E4DBE49F8658C899E5E /* UINavigationBar+QSColor.swift */; };
+		B250402B1883CDC051C55622F1EC82E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
 		D3854A0E0D33A52E63B36C20675D9CA8 /* Pods-QSColor_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 547CAF7CD14B01B283341D5C15CB4958 /* Pods-QSColor_Example-dummy.m */; };
-		D41D9F10A08073EFEBD22E3EE5B01162 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		D41D9F10A08073EFEBD22E3EE5B01162 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		E4C4BD6A564188CE958B0A2D881E9148 /* UISwitch+QSColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A23F0C304DEA2D73EBFCCE80729C20 /* UISwitch+QSColor.swift */; };
+		F0E10259DFA0F3D866EB24358F78280A /* UIView+QSColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915BD8262093C2F0C924B38E1C89325A /* UIView+QSColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,51 +52,52 @@
 		0E7A0BA2ACC13F41B5BDAFBEF83647DF /* Pods-QSColor_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QSColor_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		139E439468EC95322C7CC056F9868B72 /* Pods-QSColor_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QSColor_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		297D6D41107B10CF9DC5E9D12BB5A17E /* QSColor-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QSColor-umbrella.h"; sourceTree = "<group>"; };
-		2A3AA5181E4B50E50024CBFE /* QSColorManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QSColorManager.swift; sourceTree = "<group>"; };
-		2A3AA51A1E4B50F00024CBFE /* QSGradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QSGradientView.swift; sourceTree = "<group>"; };
-		2A3AA51C1E4B50F90024CBFE /* UIBarButtonItem+QSColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+QSColor.swift"; sourceTree = "<group>"; };
-		2A3AA51D1E4B50F90024CBFE /* UIButton+QSColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+QSColor.swift"; sourceTree = "<group>"; };
-		2A3AA51E1E4B50F90024CBFE /* UIColor+QSColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+QSColor.swift"; sourceTree = "<group>"; };
-		2A3AA51F1E4B50F90024CBFE /* UIImage+QSColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+QSColor.swift"; sourceTree = "<group>"; };
-		2A3AA5201E4B50F90024CBFE /* UILabel+QSColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+QSColor.swift"; sourceTree = "<group>"; };
-		2A3AA5211E4B50F90024CBFE /* UINavigationBar+QSColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UINavigationBar+QSColor.swift"; sourceTree = "<group>"; };
-		2A3AA5221E4B50F90024CBFE /* UIPageControl+QSColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIPageControl+QSColor.swift"; sourceTree = "<group>"; };
-		2A3AA5231E4B50F90024CBFE /* UIProgressView+QSColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIProgressView+QSColor.swift"; sourceTree = "<group>"; };
-		2A3AA5241E4B50F90024CBFE /* UISearchBar+QSColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UISearchBar+QSColor.swift"; sourceTree = "<group>"; };
-		2A3AA5251E4B50F90024CBFE /* UISlider+QSColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UISlider+QSColor.swift"; sourceTree = "<group>"; };
-		2A3AA5261E4B50F90024CBFE /* UISwitch+QSColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UISwitch+QSColor.swift"; sourceTree = "<group>"; };
-		2A3AA5271E4B50F90024CBFE /* UITabBar+QSColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITabBar+QSColor.swift"; sourceTree = "<group>"; };
-		2A3AA5281E4B50F90024CBFE /* UITextField+QSColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+QSColor.swift"; sourceTree = "<group>"; };
-		2A3AA5291E4B50F90024CBFE /* UITextView+QSColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextView+QSColor.swift"; sourceTree = "<group>"; };
-		2A3AA52A1E4B50F90024CBFE /* UIToolbar+QSColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIToolbar+QSColor.swift"; sourceTree = "<group>"; };
-		2A3AA52B1E4B50F90024CBFE /* UIView+QSColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+QSColor.swift"; sourceTree = "<group>"; };
-		37E55C8DF401A25782FF5863F7E720A7 /* QSColor.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = QSColor.modulemap; sourceTree = "<group>"; };
+		3249BB40FA5573F986888D6088CE5412 /* UISlider+QSColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UISlider+QSColor.swift"; sourceTree = "<group>"; };
+		329C888BA0B03643C3F2A2046D8AC192 /* UITextView+QSColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UITextView+QSColor.swift"; sourceTree = "<group>"; };
+		37C3C6902A41DF3139F7FD2617017F56 /* UISearchBar+QSColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UISearchBar+QSColor.swift"; sourceTree = "<group>"; };
+		37E55C8DF401A25782FF5863F7E720A7 /* QSColor.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = QSColor.modulemap; sourceTree = "<group>"; };
 		393591C6C00C8BBA4DD2B84311A49BFC /* Pods-QSColor_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QSColor_Example-resources.sh"; sourceTree = "<group>"; };
 		3B6FC12E46807C6072B7CA7CF7D4B05D /* Pods-QSColor_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QSColor_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3BE40648B655ECF32723021BBE8840F2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4E78E77742B49AC36FCF9FAF49065CBE /* Pods-QSColor_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QSColor_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		53BE312B45B1D442249482B84EA22D31 /* UILabel+QSColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UILabel+QSColor.swift"; sourceTree = "<group>"; };
 		547CAF7CD14B01B283341D5C15CB4958 /* Pods-QSColor_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QSColor_Example-dummy.m"; sourceTree = "<group>"; };
+		56C351BD1AB3B677E30110E7C52C0BA4 /* QSColorManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QSColorManager.swift; sourceTree = "<group>"; };
+		616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		634F2710FAF0C7B6F3E147DFBEC70821 /* QSColor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QSColor-dummy.m"; sourceTree = "<group>"; };
 		64968FA81BB51FB56E333FCFE1CE0661 /* Pods-QSColor_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QSColor_Example-umbrella.h"; sourceTree = "<group>"; };
+		64D8A8B9110DBA27896CA3A796E8CECE /* UIProgressView+QSColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIProgressView+QSColor.swift"; sourceTree = "<group>"; };
 		6A416E3F9AC51B58E1F8719120D7444D /* Pods-QSColor_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QSColor_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		728F30BC9A0097098941C5ED667D6894 /* QSColor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QSColor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		71FCE352E70047E09458EFA4C37D9C3D /* UIPageControl+QSColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIPageControl+QSColor.swift"; sourceTree = "<group>"; };
+		728F30BC9A0097098941C5ED667D6894 /* QSColor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QSColor.framework; path = QSColor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		82593A9350BA250F69E2E4992B74C0C0 /* QSColor.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QSColor.xcconfig; sourceTree = "<group>"; };
 		86CA3516CC65AEF7D38E8F07905EE801 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D353A25EF9A25B28D485C794619B00F /* UIButton+QSColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIButton+QSColor.swift"; sourceTree = "<group>"; };
 		8E32949B0632A2A4DC83F2F6E6757A7A /* Pods-QSColor_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QSColor_Example.release.xcconfig"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		915BD8262093C2F0C924B38E1C89325A /* UIView+QSColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIView+QSColor.swift"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9958C4875C09D8D6EF8099D201B61229 /* Pods-QSColor_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QSColor_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		99A4BDDD91F6C6FA64B43E8935EF07E4 /* UIImage+QSColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIImage+QSColor.swift"; sourceTree = "<group>"; };
+		9C616BA0247AE05751ECC224C779D882 /* UIBarButtonItem+QSColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+QSColor.swift"; sourceTree = "<group>"; };
+		A1A78E82896C54BC1F8479363A8B54AB /* UIToolbar+QSColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIToolbar+QSColor.swift"; sourceTree = "<group>"; };
+		A1D5CCA73D285E63E3A7ED11D59F5F98 /* UITabBar+QSColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UITabBar+QSColor.swift"; sourceTree = "<group>"; };
 		A6564656BAF6516CE3094E6C27A62351 /* Pods-QSColor_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QSColor_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		A84E2BFE050EC9D59649522C2CD51EF1 /* Pods_QSColor_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QSColor_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A84E2BFE050EC9D59649522C2CD51EF1 /* Pods_QSColor_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QSColor_Example.framework; path = "Pods-QSColor_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9586DB94412FFEDB89F09B79BD2D5B5 /* Pods-QSColor_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QSColor_Example-frameworks.sh"; sourceTree = "<group>"; };
 		AA0CF569EBEFEC39EA2F912A2CA05466 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD0D64601E1FF69493C24617852EBE84 /* UIColor+QSColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIColor+QSColor.swift"; sourceTree = "<group>"; };
 		AD389E6DAE7845866A068D0CB9FFB7A6 /* Pods-QSColor_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QSColor_Tests-umbrella.h"; sourceTree = "<group>"; };
 		B17E5B0CC9175709D9A08E10132D78AA /* Pods-QSColor_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QSColor_Tests-dummy.m"; sourceTree = "<group>"; };
-		B5B24444CC2BC5F0FC70294B658634DC /* Pods-QSColor_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-QSColor_Tests.modulemap"; sourceTree = "<group>"; };
-		BFD914D3F76CC4839D9F25684547234A /* Pods-QSColor_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-QSColor_Example.modulemap"; sourceTree = "<group>"; };
-		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		B5B24444CC2BC5F0FC70294B658634DC /* Pods-QSColor_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-QSColor_Tests.modulemap"; sourceTree = "<group>"; };
+		BFD914D3F76CC4839D9F25684547234A /* Pods-QSColor_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-QSColor_Example.modulemap"; sourceTree = "<group>"; };
+		C0A23F0C304DEA2D73EBFCCE80729C20 /* UISwitch+QSColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UISwitch+QSColor.swift"; sourceTree = "<group>"; };
+		CE23EE5C211FE9601B012133142AE542 /* UITextField+QSColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UITextField+QSColor.swift"; sourceTree = "<group>"; };
+		CF25E03C51618859B669221509C77684 /* QSGradientView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QSGradientView.swift; sourceTree = "<group>"; };
 		D727E439A26F463B1458402FAEDC0B7C /* Pods-QSColor_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QSColor_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		EAF8085FA3B16B92D433247292083465 /* Pods_QSColor_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QSColor_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAF8085FA3B16B92D433247292083465 /* Pods_QSColor_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QSColor_Tests.framework; path = "Pods-QSColor_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4D3102BF859ADD82C710BAADDA29BCA /* Pods-QSColor_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QSColor_Tests-resources.sh"; sourceTree = "<group>"; };
+		F55AB8117E380E4DBE49F8658C899E5E /* UINavigationBar+QSColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UINavigationBar+QSColor.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,19 +109,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		574948E95AB0EEB1ADCD56B0A9AF7BCC /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4874B6FBF53467CD1E9CF87E98D6F127 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D281F39DF5EE82C295F12CCDFD9D26EC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				B250402B1883CDC051C55622F1EC82E1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E137A9932092748E5DFF427E8E3CB0AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				029D5752369E78811112334232CE1DCF /* Foundation.framework in Frameworks */,
+				8D3B551C683ACEC6E108E063E362FF05 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,43 +155,30 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		2A3AA5151E4B50980024CBFE /* Manager */ = {
+		342A310FD17537D2838818C8E784536B /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				2A3AA5181E4B50E50024CBFE /* QSColorManager.swift */,
+				56C351BD1AB3B677E30110E7C52C0BA4 /* QSColorManager.swift */,
+				CF25E03C51618859B669221509C77684 /* QSGradientView.swift */,
+				9C616BA0247AE05751ECC224C779D882 /* UIBarButtonItem+QSColor.swift */,
+				8D353A25EF9A25B28D485C794619B00F /* UIButton+QSColor.swift */,
+				AD0D64601E1FF69493C24617852EBE84 /* UIColor+QSColor.swift */,
+				99A4BDDD91F6C6FA64B43E8935EF07E4 /* UIImage+QSColor.swift */,
+				53BE312B45B1D442249482B84EA22D31 /* UILabel+QSColor.swift */,
+				F55AB8117E380E4DBE49F8658C899E5E /* UINavigationBar+QSColor.swift */,
+				71FCE352E70047E09458EFA4C37D9C3D /* UIPageControl+QSColor.swift */,
+				64D8A8B9110DBA27896CA3A796E8CECE /* UIProgressView+QSColor.swift */,
+				37C3C6902A41DF3139F7FD2617017F56 /* UISearchBar+QSColor.swift */,
+				3249BB40FA5573F986888D6088CE5412 /* UISlider+QSColor.swift */,
+				C0A23F0C304DEA2D73EBFCCE80729C20 /* UISwitch+QSColor.swift */,
+				A1D5CCA73D285E63E3A7ED11D59F5F98 /* UITabBar+QSColor.swift */,
+				CE23EE5C211FE9601B012133142AE542 /* UITextField+QSColor.swift */,
+				329C888BA0B03643C3F2A2046D8AC192 /* UITextView+QSColor.swift */,
+				A1A78E82896C54BC1F8479363A8B54AB /* UIToolbar+QSColor.swift */,
+				915BD8262093C2F0C924B38E1C89325A /* UIView+QSColor.swift */,
 			);
-			name = Manager;
-			sourceTree = "<group>";
-		};
-		2A3AA5161E4B50A10024CBFE /* Utils */ = {
-			isa = PBXGroup;
-			children = (
-				2A3AA51C1E4B50F90024CBFE /* UIBarButtonItem+QSColor.swift */,
-				2A3AA51D1E4B50F90024CBFE /* UIButton+QSColor.swift */,
-				2A3AA51E1E4B50F90024CBFE /* UIColor+QSColor.swift */,
-				2A3AA51F1E4B50F90024CBFE /* UIImage+QSColor.swift */,
-				2A3AA5201E4B50F90024CBFE /* UILabel+QSColor.swift */,
-				2A3AA5211E4B50F90024CBFE /* UINavigationBar+QSColor.swift */,
-				2A3AA5221E4B50F90024CBFE /* UIPageControl+QSColor.swift */,
-				2A3AA5231E4B50F90024CBFE /* UIProgressView+QSColor.swift */,
-				2A3AA5241E4B50F90024CBFE /* UISearchBar+QSColor.swift */,
-				2A3AA5251E4B50F90024CBFE /* UISlider+QSColor.swift */,
-				2A3AA5261E4B50F90024CBFE /* UISwitch+QSColor.swift */,
-				2A3AA5271E4B50F90024CBFE /* UITabBar+QSColor.swift */,
-				2A3AA5281E4B50F90024CBFE /* UITextField+QSColor.swift */,
-				2A3AA5291E4B50F90024CBFE /* UITextView+QSColor.swift */,
-				2A3AA52A1E4B50F90024CBFE /* UIToolbar+QSColor.swift */,
-				2A3AA52B1E4B50F90024CBFE /* UIView+QSColor.swift */,
-			);
-			name = Utils;
-			sourceTree = "<group>";
-		};
-		2A3AA5171E4B50A90024CBFE /* View */ = {
-			isa = PBXGroup;
-			children = (
-				2A3AA51A1E4B50F00024CBFE /* QSGradientView.swift */,
-			);
-			name = View;
+			name = Classes;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		3D1BA7D19DDE09158C3021262898E092 /* Pods-QSColor_Example */ = {
@@ -207,6 +197,14 @@
 			);
 			name = "Pods-QSColor_Example";
 			path = "Target Support Files/Pods-QSColor_Example";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6EE98446B568159EE277B68FD442AF0 /* iOS */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		60FBD8C7681A219FAA8FF5D5D876CEC7 /* Products */ = {
@@ -233,20 +231,12 @@
 			path = "Example/Pods/Target Support Files/QSColor";
 			sourceTree = "<group>";
 		};
-		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				29D1C20D4B02C26AAC37AD83DA0A4607 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
 				60FBD8C7681A219FAA8FF5D5D876CEC7 /* Products */,
 				E22B2EA8A6367A245364D491DE2A79AD /* Targets Support Files */,
 			);
@@ -255,36 +245,19 @@
 		AA2ED60F10C885B2FD90BAE489BF619E /* QSColor */ = {
 			isa = PBXGroup;
 			children = (
-				D3322D6D45A4356DB8A57F6328BA28A7 /* QSColor */,
+				CD2C2E2F200D1225D45BF3DE67FCBF25 /* QSColor */,
 				660D4D5FC3C6F659647606A062021DC2 /* Support Files */,
 			);
 			name = QSColor;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		BB825D3D2FCD433FA710CDC897FAE35F /* Classes */ = {
+		CD2C2E2F200D1225D45BF3DE67FCBF25 /* QSColor */ = {
 			isa = PBXGroup;
 			children = (
-				2A3AA5151E4B50980024CBFE /* Manager */,
-				2A3AA5171E4B50A90024CBFE /* View */,
-				2A3AA5161E4B50A10024CBFE /* Utils */,
+				342A310FD17537D2838818C8E784536B /* Classes */,
 			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D3322D6D45A4356DB8A57F6328BA28A7 /* QSColor */ = {
-			isa = PBXGroup;
-			children = (
-				BB825D3D2FCD433FA710CDC897FAE35F /* Classes */,
-			);
+			name = QSColor;
 			path = QSColor;
 			sourceTree = "<group>";
 		};
@@ -295,6 +268,15 @@
 				1112C600C2E3706CE79C2AE43C40A7D5 /* Pods-QSColor_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E6EE98446B568159EE277B68FD442AF0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */,
+				7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -348,8 +330,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D969AB4D3690193160F19803FEE1ED3D /* Build configuration list for PBXNativeTarget "QSColor" */;
 			buildPhases = (
-				4352463395EC63EE53C9003FDF6E087B /* Sources */,
-				574948E95AB0EEB1ADCD56B0A9AF7BCC /* Frameworks */,
+				8E8FF31440717DA49188ACA67AA369F7 /* Sources */,
+				E137A9932092748E5DFF427E8E3CB0AD /* Frameworks */,
 				65E0FF6840734BF04242B7A5C796D61A /* Headers */,
 			);
 			buildRules = (
@@ -387,11 +369,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0700;
-				TargetAttributes = {
-					A9E616360146BC98A18D798FE03EECC7 = {
-						LastSwiftMigration = 0820;
-					};
-				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -413,29 +390,29 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4352463395EC63EE53C9003FDF6E087B /* Sources */ = {
+		8E8FF31440717DA49188ACA67AA369F7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A3AA52C1E4B50F90024CBFE /* UIBarButtonItem+QSColor.swift in Sources */,
-				2A3AA53A1E4B50F90024CBFE /* UIToolbar+QSColor.swift in Sources */,
-				2A3AA51B1E4B50F00024CBFE /* QSGradientView.swift in Sources */,
-				5932F0669CC2511B5B5AF89227A2FAEC /* QSColor-dummy.m in Sources */,
-				2A3AA52F1E4B50F90024CBFE /* UIImage+QSColor.swift in Sources */,
-				2A3AA5391E4B50F90024CBFE /* UITextView+QSColor.swift in Sources */,
-				2A3AA53B1E4B50F90024CBFE /* UIView+QSColor.swift in Sources */,
-				2A3AA5351E4B50F90024CBFE /* UISlider+QSColor.swift in Sources */,
-				2A3AA5301E4B50F90024CBFE /* UILabel+QSColor.swift in Sources */,
-				2A3AA52E1E4B50F90024CBFE /* UIColor+QSColor.swift in Sources */,
-				2A3AA5371E4B50F90024CBFE /* UITabBar+QSColor.swift in Sources */,
-				2A3AA5321E4B50F90024CBFE /* UIPageControl+QSColor.swift in Sources */,
-				2A3AA5381E4B50F90024CBFE /* UITextField+QSColor.swift in Sources */,
-				2A3AA5341E4B50F90024CBFE /* UISearchBar+QSColor.swift in Sources */,
-				2A3AA5361E4B50F90024CBFE /* UISwitch+QSColor.swift in Sources */,
-				2A3AA52D1E4B50F90024CBFE /* UIButton+QSColor.swift in Sources */,
-				2A3AA5191E4B50E50024CBFE /* QSColorManager.swift in Sources */,
-				2A3AA5311E4B50F90024CBFE /* UINavigationBar+QSColor.swift in Sources */,
-				2A3AA5331E4B50F90024CBFE /* UIProgressView+QSColor.swift in Sources */,
+				9BE9636FCED46115E3D2D2D9551A6FDB /* QSColor-dummy.m in Sources */,
+				0FB9C6FB59A604D71D2103BE544CED18 /* QSColorManager.swift in Sources */,
+				0803BC1FF334F012A46F05511B2144EF /* QSGradientView.swift in Sources */,
+				3E1C4A07B2A365AC155234779AFE3063 /* UIBarButtonItem+QSColor.swift in Sources */,
+				AA36A9C81AA6164F43760F3C76DAFF34 /* UIButton+QSColor.swift in Sources */,
+				65E218F3FBBF07F5F1AD1ABD17C24DF5 /* UIColor+QSColor.swift in Sources */,
+				1BE2EFB94547DA9E255FE4ABA1AF7BE2 /* UIImage+QSColor.swift in Sources */,
+				A66455160DD66A816DE6E576083441F8 /* UILabel+QSColor.swift in Sources */,
+				AA69396A48AD9D8AB19538023A5260EE /* UINavigationBar+QSColor.swift in Sources */,
+				1624FE0FA22A08DF7DA7C388371A1A0E /* UIPageControl+QSColor.swift in Sources */,
+				3394EC60FB5A5A579BCC680A6E654101 /* UIProgressView+QSColor.swift in Sources */,
+				275CE705FE6C053654842BDEE9BBC424 /* UISearchBar+QSColor.swift in Sources */,
+				A08A985475AF45ABA4F6573FE5DB845F /* UISlider+QSColor.swift in Sources */,
+				E4C4BD6A564188CE958B0A2D881E9148 /* UISwitch+QSColor.swift in Sources */,
+				179B84C8E0AD145B36FD683050F5FAB2 /* UITabBar+QSColor.swift in Sources */,
+				586DF84FE42A14D935CA6615CBA426AD /* UITextField+QSColor.swift in Sources */,
+				81A3F6E1C8F5E2EE314E17922513A25E /* UITextView+QSColor.swift in Sources */,
+				6A74F4682E25DD151E0CE8B42C7CE0E1 /* UIToolbar+QSColor.swift in Sources */,
+				F0E10259DFA0F3D866EB24358F78280A /* UIView+QSColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -612,7 +589,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 82593A9350BA250F69E2E4992B74C0C0 /* QSColor.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -646,7 +622,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 82593A9350BA250F69E2E4992B74C0C0 /* QSColor.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
