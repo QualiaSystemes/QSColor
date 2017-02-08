@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'QSColor_Example' do
+  pod 'QSColor', :path => '../'
+
+  target 'QSColor_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
