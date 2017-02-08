@@ -1,0 +1,6 @@
+framework module QSColor {
+  umbrella header "QSColor-umbrella.h"
+
+  export *
+  module * { export * }
+}

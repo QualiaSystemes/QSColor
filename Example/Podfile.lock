@@ -1,0 +1,16 @@
+PODS:
+  - QSColor (0.1.0)
+
+DEPENDENCIES:
+  - QSColor (from `../`)
+
+EXTERNAL SOURCES:
+  QSColor:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  QSColor: 11c2c0a24f2a9fb777e191edc9ecb4c5faa161dc
+
+PODFILE CHECKSUM: '0897f8e0a497dc7922fe63c27562a2ec89b703db'
+
+COCOAPODS: 1.2.0

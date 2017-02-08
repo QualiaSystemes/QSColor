@@ -1,0 +1,22 @@
+{
+  "name": "QSColor",
+  "version": "0.1.0",
+  "summary": "A short description of QSColor.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Qualia Systemes/QSColor",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Qualia Systemes": "technique@qualia.fr"
+  },
+  "source": {
+    "git": "https://github.com/Qualia Systemes/QSColor.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "QSColor/Classes/**/*"
+}
